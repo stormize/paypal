@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>PayPal Node App</title>
+</head>
+<body>
+  <h1>Boston Red Sox Hat</h1>
+  <h2>Buy For $25</h2>
+  <form action="/pay" method="post">
+    <input type="text" name="amount" placeholder="amount"><br>
+    <input type="radio" name="currency" value="USD"> USD<br>
+    <input type="radio" name="currency" value="EUR"> EUR<br>
+    <input type="radio" name="currency" value="THB"> THB<br>
+    <input type="radio" name="currency" value="HKD"> HKD<br>
+    <input type="radio" name="currency" value="SGD"> SGD<br>
+    <input type="radio" name="currency" value="AUD"> AUD<br>
+    <input type="submit" value="Buy">
+  </form>
+</body>
+</html>
